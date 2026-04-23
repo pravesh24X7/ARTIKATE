@@ -41,3 +41,44 @@ ARTIKATE/
 │
 └── Task 04 - Written Systems Design Review/
 └── Answers.md
+```
+
+### Setup instructions
+
+**For Task 02**
+
+Install required libraries
+```bash
+pip install -r requirements.txt
+```
+
+Create a .env file and store the value of both the keys in below given format.
+```
+export GROQ_API_KEY=your_key
+export HUGGINGFACEHUB_API_TOKEN=your_key
+```
+
+**Note**:
+**Add some demo contact files (3 to 5) in *data/contracts/* folder**
+
+**How to run**
+
+```bash
+python main.py
+```
+
+**For Task 03**
+
+Install required libraries
+```bash
+pip install -r requirements.txt
+```
+
+**How to run**
+
+```bash
+python -m src.models.train          # to train the model, first run this command
+python -m src.models.evaluate       # second run this command to get the results.
+```
+
+**Note**: No additional data we've to add for running the **TASK 03**, as we've created the synthetic data using python.
