@@ -1,2 +1,2 @@
 # ARTIKATE
-Tech
+Technical assignment for the post of AI/ML engineer
