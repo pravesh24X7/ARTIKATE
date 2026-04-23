@@ -25,6 +25,7 @@ ARTIKATE/
 │   ├── .env
 │   ├── Design.md
 │   └── main.py
+|   └── requirements.txt
 │
 ├── Task 03 - Fine-Tune or Prompt-Engineer a Classifier/
 │   ├── src/
