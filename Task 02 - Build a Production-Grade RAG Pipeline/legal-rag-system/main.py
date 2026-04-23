@@ -49,6 +49,10 @@ if __name__ == "__main__":
     for file in os.listdir("data/contracts/"):
         if file.endswith(".pdf"):
             pdf_files.append(f"data/contracts/{file}")
+    
+    if len(pdf_files) < 1:
+        print("[+] No Contracts found.")
+        raise SystemExit
 
     docs = load_pdfs(pdf_files)
     chunks = chunk_documents(docs)
